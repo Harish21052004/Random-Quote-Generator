@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title">Random Quote Generator</div>
+            <div class="content" id="content">
+                Trust yourself. You know more than you think you do
+            </div>
+            <div class="author" >
+                --- <span id="author">Benjamin Spock</span>
+            </div>
+            <div class="bottom">
+                <div class="sound" onclick="sound()">
+                    <i class="fas fa-volume-up"></i>
+                </div>                
+                <div class="button">
+                    <button onclick="quote()">New quote</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
